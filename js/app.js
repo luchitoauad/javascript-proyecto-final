@@ -128,6 +128,8 @@ function updateCart() {
     }
 }
 
+//Pop Up ventana compra
+
 const btnAbrirModal=
 document.querySelector("#lnkStartEnd");
 const btnCerrarModal =
