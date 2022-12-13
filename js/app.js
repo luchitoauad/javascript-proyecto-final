@@ -164,7 +164,7 @@ btnCerrarModal.addEventListener("click", ()=>{
 
 
 
-
+//Esta parte no va, la dejo como futura referencia para realizar modificaciones en el código.
 
 /*
 let pedido = confirm("BIENVENIDO A AQUAWORLD! Desea realizar una compra?");
