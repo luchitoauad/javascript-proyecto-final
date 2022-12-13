@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercaderia</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">AquaStore</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="users.html">Nadadores</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    </header>
+    <main>
+        <section id="cart">
+            <h3>Tus Productos <a id="lnkStartOver" href="#">Cancel</a></h3>
+            <ul></ul>
+            <div class="boton">
+                <p><a id="lnkStartEnd" href="#">Comprar</a></p>
+            </div>
+
+            <dialog id="modal">
+            <h3>Compra Realizada!</h3>
+            <p>Ingresá tus datos a continuación y recibirás el codigo de seguimiento!</p>
+        
+        <form method="dialog">
+            <label> Nombre <input type="text">
+            </label>
+            <label> Mail <input type="email">
+            </label>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <button id="btn-cerrar-modal"> Cerrar ventana</button>
+    </dialog>
+
+        </section>
+
+        <h3>Antiparras</h3>
+        <ul>
+            <li>
+                <article class="sport1" data-title="Antiparras de entrenamiento Arena" data-price="$5000">
+                    <h4>Marca: Arena</h4>
+                    <section>
+                        <p class="description">Antiparras de entrenamiento</p>
+                        <p class="price">$5000</p>
+                    </section>
+                </article>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <article class="sport1" data-title="Antiparras de competición Arena" data-price="$15000">
+                    <h4>Marca: Arena</h4>
+                    <section>
+                        <p class="description">Antiparras de competición</p>
+                        <p class="price">$15000</p>
+                    </section>
+                </article>
+            </li>
+        </ul>
+
+        <h3>Mallas</h3>
+        <ul>
+            <li>
+                <article class="sport1" data-title="Malla de entrenamiento Arena" data-price="$6000">
+                    <h4>Marca: Arena</h4>
+                    <section>
+                        <p class="description">Malla de entrenamiento</p>
+                        <p class="price">$6000</p>
+                    </section>
+                </article>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <article class="sport1" data-title="Malla de competición Arena" data-price="$45000">
+                    <h4>Marca: Arena</h4>
+                    <section>
+                        <p class="description">Malla de competición</p>
+                        <p class="price">$45000</p>
+                    </section>
+                </article>
+            </li>
+        </ul>
+
+        <h3>Manoplas</h3>
+        <ul>
+            <li>
+                <article class="sport1" data-title="Manoplas de entrenamiento Arena" data-price="$5000">
+                    <h4>Marca: Arena</h4>
+                    <section>
+                        <p class="description">Manoplas de entrenamiento</p>
+                        <p class="price">$5000</p>
+                    </section>
+                </article>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <article class="sport1" data-title="Manoplas de entrenamiento Hydro" data-price="$3000">
+                    <h4>Marca: Hydro</h4>
+                    <section>
+                        <p class="description">Manoplas de entrenamiento</p>
+                        <p class="price">$3000</p>
+                    </section>
+                </article>
+            </li>
+        </ul>
+
+        <h3>Aletas</h3>
+        <ul>
+            <li>
+                <article class="sport1" data-title="Aletas de entrenamiento Arena" data-price="$10000">
+                    <h4>Marca: Arena</h4>
+                    <section>
+                        <p class="description">Aletas entrenamiento</p>
+                        <p class="price">$10000</p>
+                    </section>
+                </article>
+            </li>
+        </ul>
+
+    </main>
+
+
+    <footer>
+        <p>
+        <address>Av Nazca 2847, CABA, Villa del parque</address>
+        <p>Lunes a Viernes de 9hs a 18hs</p>
+        <p>Sabados de 9hs a 13hs</p>
+        <a href="tel:+54 1130797140"> Atención telefónica</a>
+        </p>
+
+    </footer>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+body {
+    background-image: url(../imagenes/fondo4.jpg);
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+}
+
+h1 {
+    font-size: xx-large;
+    text-align: center;
+    color: blanchedalmond;
+    text-shadow: 2px 2px 2px black;
+    Font-family: Lucida Bright, Georgia, serif;
+    padding: 10px;
+}
+
+h2 {
+    font-size: x-large;
+    text-align: center;
+    color: blanchedalmond;
+    text-shadow: 2px 2px 2px black;
+    Font-family: Lucida Bright, Georgia, serif;
+    padding: 10px;
+}
+
+h3 {
+    margin-top: 0;
+    background-color: rgb(4, 132, 147);
+    padding: .5rem;
+    border-bottom: 2px dashed rgb(5, 91, 156);
+    /* position: sticky; */
+    text-align: center;
+    top: 120px;
+
+}
+
+ul {
+    list-style: none;
+    padding: 5px;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex {
+    flex: 1;
+    background-color: aliceblue;
+    min-width: 250px;
+    margin: 20px;
+    padding: 25px;
+
+}
+
+.in-flex:first-child {
+    flex: 2;
+    padding: 25px;
+    background-color: aliceblue;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.in-flex div {
+    padding: 25px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+main {
+    color: blanchedalmond;
+    text-shadow: 3px 3px 3px black;
+    Font-family: Lucida Bright, Georgia, serif;
+}
+
+
+footer {
+    color: blanchedalmond;
+    background-color: gray;
+    text-shadow: 3px 3px 3px black;
+    Font-family: Lucida Bright, Georgia, serif;
+    padding: 0 15px;
+    text-align: center;
+    font-size: small;
+}
+
+
+#cart {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    left: 20%;
+    right: 20%;
+    background-color: rgb(11, 84, 78);
+    color: #ddd;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    z-index: 1000;
+}
+
+.sport1 {
+    margin-top: 1rem;
+}
+
+.sport1 h4 {
+    font-size: 1.3rem;
+    margin: 5px 0;
+}
+
+.sport1 section {
+    display: flex;
+}
+
+.sport1 .description {
+    font-size: 1rem;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.sport1 .price {
+    width: 100px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: right;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.boton {
+    width: 100px;
+    height: 50px;
+    background-color: rgba(96, 193, 212, 0.888);
+    border-radius: .5em;
+    cursor: pointer;
+    transition: background-color .5s;
+    
+}
+
+.boton:hover {
+    background-color: rgba(180, 102, 102, 0.922);
+}
+
+.boton p{
+    text-align: center;
+    vertical-align: center;
+    font-size: 1em; font-weight: bold;
+    color: black;
+    line-height: 3em;
+    text-shadow:none;
+    Font-family: Lucida Bright, Georgia, serif;
+}
+
+#modal::backdrop{
+    background-color: rgba(0,0,0,.55);
+}
+
